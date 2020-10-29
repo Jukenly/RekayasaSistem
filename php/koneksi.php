@@ -9,10 +9,10 @@
  */
  
  //Mendefinisikan Konstanta
- define('HOST','127.0.0.1');
- define('USER','root');
- define('PASS','');
- define('DB','db_rekayasasistem');
+ define('HOST','localhost');
+ define('USER','id15259235_root');
+ define('PASS','Sistemrekayasa123!@#');
+ define('DB','id15259235_db_rekayasasistem');
  
  //membuat koneksi dengan database
  $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
